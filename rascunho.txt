@@ -1,0 +1,234 @@
+==================================================================================================================
+==================================================================================================================
+                                    06/06/2022 Conteúdo da aula 01 à 07
+==================================================================================================================
+==================================================================================================================
+
+
+
+
+<!-- Abrindo a tag-->                  <!-- Conteúdo-->           <!-- Fechando a tag-->      <!-- Descrição-->
+
+       <>                                Conteúdo                         </>
+
+       <h1>                              Título H1                       </h1>                <!-- Título-->
+
+       <hr/>
+       
+
+       <p>                               Páragrafo                       </p>                 <!-- Parágrafo-->
+       
+       <br>
+
+       
+       <strong>                          Negrito                         </strong>            <!-- Negrito-->
+
+
+       <br>
+
+       <u>                               Sublinhado                      </u>                 <!-- Sublinhado-->
+
+       <br>
+
+       <!------------------------------------------------------------------------------------------------->
+
+       <!-- Exemplo de duas tag's, abrindo e fechando-->
+
+       <strong> Olá aulunos do curso <u> Formando Dev </u></strong>
+
+       <!------------------------------------------------------------------------------------------------->
+
+       <!-- Exemplo de tag's, tag única-->
+
+       <hr/>                                      <!-- Sublinhado--> 
+       <br>                                       <!-- Espaço--> 
+
+
+==================================================================================================================
+==================================================================================================================
+                                    07/06/2022 Conteúdo da aula 08 à 10 
+==================================================================================================================
+==================================================================================================================
+
+
+<!DOCTYPE html> <!-- Navegador Libere recursos do html5 -->
+
+
+<html> <!-- Todo o conteúdo do site irá ficar aqui dentro -->
+
+<!------------------------------------------------------>
+       <head> <!-- Cabeça, são as informação do nosso site -->
+
+           <meta charset="UTF-8"> <!-- Codificação da página -->
+
+           <title> Pagina de teste</title>
+
+   
+       </head>
+<!------------------------------------------------------>
+       <body>
+           <!-- <Corpo do site as coisas que estiver aqui será exibida -->
+       </body>
+
+</html>
+
+<!--OBS: Para criar automaticamente a estrutura do Html5 vá dentro do aquivo index.html-->
+<!--lá você digita Html5 e seleciona Html5 e a estrurura será criada aultomaticamnte -->
+<!-- Veja o exemplo abaixo da estrutura criada-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<!-- OBS: Existem atalhos para você copiar o código, recortar, e correr com ele de cima pra baixo ou -->
+<!-- de baixo para cima, para copiar você deve colocar o cursor no inicio ou no final da linha que você -->
+<!-- deseja copiar  de um Ctrl V e cola onde você quiser, se você quiser recortar coloca o cursor no inicio da -->
+<!-- linha de um Ctrl + X e recorta, agora se você quiser correr com o código de cima para baixo ou de baixo -->
+<!-- para cima para colocar em outra linha você deve colocar o cursor no inico ou no fim da linha segurar a tecla -->
+<!-- alt e usar a seta para cima ou para baixo -->
+
+
+<!--OBS: Se você quiser editar o nome de várias palavras com mesmo nome você da um duplo clik em cima da palavra -->
+<!--que você quer editar em seguida de um Ctrl + D então você poderá fazer a alteração do nome da palavra -->
+<!-- Se tiver mais palavras com mesmo nome você vai apertando D que vai selecionando EXISTEM VÁRIOS ATALHOS -->
+<!-- de teclado você pode ir no menu do VsCode em arquivo preferências e na opção atalhos de teclado -->
+<!-- pode consultar também no link https://code.visualstudio.com/docs/getstarted/keybindings -->
+
+
+==================================================================================================================
+==================================================================================================================
+                                    09/06/2022 Conteúdo da aula 11 à 15
+==================================================================================================================
+==================================================================================================================
+
+
+<!--OBS: Aba do pesquisar no VsCode, na lateral esquerda na aba de pesquisar(lupinha) você digita o que quer -->
+<!--pesquisar e no campo abaixo aparecerá substituir você pode substituir a palavra pesquisada por outra -->
+<!-- nos tês pontinhos abaixo do campo substituir ao clicar aparecerá aquivos a serem incluidos então você digita -->
+<!-- o aquivo que apenas você queira fazer a alteração ex: o arquivo idex.html você digita *.html e alteração será -->
+<!--feita apenas no arquivo com a extenção html, no campo abaixo tem o campo arquivos a serem excluidos você faz-->
+<!--o mesmo processo, mas de exclusão-->
+
+
+<!--OBS: CAMPO ESTRUTURA DO CÓDIGO também é muito útil fica lado direito na aba explorador logo abaixo vai aparecer -->
+<!--assim > ESTRUTURA DO CÓDIGO você pode navegar com mais facilidade para verificação de seu código -->
+
+
+<!--OBS: Na aba arquivo tem a opção de salvamento automático será uma opção sua selecionar -->
+
+
+<!--Atalho Ctrl + J abre o terminal -->
+
+
+<!--Trocar tema VsCode você vai em arquivo preferências  temas e cores e selecio a de sua preferência-->
+<!--existem algumas extenções que também da para instalar -->
+
+==================================================================================================================
+==================================================================================================================
+                                    14/06/2022 Conteúdo da aula 16 à 25
+==================================================================================================================
+==================================================================================================================
+
+<!-- Atalho para você trabalhar com 2 ou mais tela no VsCode para isso você segura a tela Ctrl + } e abrirá quantas --> 
+<!-- telas você desejar trabalhar. tem um icone no lado direito ao lado de 3 pontinhos que também faz essa função -->
+
+
+<!-- Para colocar um contador de visitas você vai no seu perfil depois clica em Overview depois clica no lápis para -->
+<!-- para editar o código e no final do código você coloca o código abaixo e faz o commit da alteração para saber o que -->
+<!-- foi editado. -->
+
+
+</br>
+<p align="center">   <img alingn="center" src="https://profile-counter.glitch.me/Florianopolismarcelo/count.svg" /></p>
+
+
+<!-- OBS: Caso você queira configurar o Visual Cobrinha, comendo o commit  assista a aula (#22) e a aula (#22 1). -->
+
+==================================================================================================================
+==================================================================================================================
+                                    15/06/2022 Conteúdo da aula 26 à 31
+==================================================================================================================
+==================================================================================================================
+
+Configurando nome e e-mail no Github
+
+- $ git config --global user.name "florianopolismarcelo"
+
+- $ git config --global user.e-mail "florianopolismarcelo@msn.com"
+
+-------------------------------------------------------------------------------------------------------------------
+vericando a versão do git e a configuração do nome e e-mail
+-------------------------------------------------------------------------------------------------------------------
+
+- $ git --version
+
+- $ git config user.name
+
+- $ git config --list
+
+-------------------------------------------------------------------------------------------------------------------
+Como inicializar o repositório local
+no console navege até dentro da pasta que você quer inicializar e digite:
+-------------------------------------------------------------------------------------------------------------------
+
+- $ git init
+
+-------------------------------------------------------------------------------------------------------------------
+verificando status no repositório local
+-------------------------------------------------------------------------------------------------------------------
+
+- $ git status
+
+-------------------------------------------------------------------------------------------------------------------
+Adicionar no repositório local após isso verificar status
+-------------------------------------------------------------------------------------------------------------------
+
+- $ git add .
+
+- $ git add status
+
+-------------------------------------------------------------------------------------------------------------------
+Comitando arquivos 
+-------------------------------------------------------------------------------------------------------------------
+
+- $ git commit -m "nome do commit"
+
+==================================================================================================================
+==================================================================================================================
+                                    00/06/2022 Conteúdo da aula 32 à 
+==================================================================================================================
+==================================================================================================================
+
+
+
+
+
+
+
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+
+
+
+
+
