@@ -219,6 +219,9 @@ Enviar para o repositório
  - $ git push --force origin nomeRepositório
 
 
+ 
+
+
 
 
 
