@@ -218,7 +218,7 @@ Enviar para o repositório
 
  - $ git push --force origin nomeRepositório
 
-
+Instalar a (Extensão Live Server)
 
 
 
